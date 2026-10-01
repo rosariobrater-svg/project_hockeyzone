@@ -1,0 +1,43 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ESTILO DE FUENTE */
+h1, h2, h3, h4, h5, h6, p, a {
+    font-family: "Clarity City", sans-serif;
+}
+
+p {
+    font-size: 1rem;
+
+}
+header {
+    height: 50px;
+    background-color: #d2a7eb;
+}
+
+main {background-color: #edb58e;
+height: 1500px;
+}
+
+section {
+    background-color: #c6459f;
+    height: 1600px;
+}
+
+.nino {
+    background-color: #8371de;
+    height: 1500px;
+}
+
+.contenedor_productos{
+    position: relative;
+}
+.contenedor_productos div{
+   height: 150px;
+   width: 150px;
+   border: 2px solid #000;
+   margin: 20px 30px 50px 20px;
+
+}
