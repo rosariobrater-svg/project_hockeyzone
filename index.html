@@ -3,20 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/stylesheet.css">
-  <!--tipografia textos-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="./css/stylesheet.css">
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <title>Inicio | Hockey Zone</title>
 </head>
+
 <body>
   <header>
-    <a href="./index.html">HOCKEY ZONE</a>
+    <a href="./index.html">
+      <img class="logo" src="./img/logo.png" alt="Hockey Zone">
+    </a>
+
     <nav>
-      <a href="index.html">Inicio</a>
+      <a href="./index.html">Inicio</a>
       <a href="./pages/partidos.html">Partidos</a>
       <a href="./pages/resultados.html">Resultados</a>
       <a href="./pages/posiciones.html">Posiciones</a>
@@ -27,52 +32,95 @@
   </header>
 
   <main>
-    <section>
-      <div>Espacio para imagen principal</div>
-      <h1>Segui el hockey</h1>
-      <p>Proximos partidos, resultados y torneos en un solo lugar.</p>
-      <a href="./pages/partidos.html">Ver partidos</a>
+    <!-- PORTADA -->
+    <section class="portada">
+      <div class="texto_portada">
+        <h1>Seguí el Hockey</h1>
+        <p>
+          Partidos, Resultados, Posiciones, Torneos y Noticias de Hockey.
+          Todo en un solo lugar.
+        </p>
+        <a class="boton" href="./pages/partidos.html">Ver Partidos</a>
+      </div>
+
+      <div class="imagen_portada">
+        <img src="./img/hero.jpg" alt="Jugadora de hockey con camiseta celeste">
+      </div>
     </section>
 
-    <section>
-      <h2>Explora Hockey Zone</h2>
-      <div><a href="./pages/posiciones.html">Partidos</a></div>
-      <div><a href="./pages/resultados.html">Resultados</a></div>
-      <div><a href="./pages/posiciones.html">Posiciones</a></div>
-      <div><a href="./pages/torneo.html">Torneos</a></div>
+    <!-- ACCESOS -->
+    <section class="accesos">
+      <h2>Explorá Hockey Zone</h2>
+
+      <div class="tarjeta">
+        <img src="./img/calendario.png" alt="Calendario">
+        <h3>Partidos</h3>
+        <p>Consultá cuando y dónde se juegan los partidos.</p>
+        <a class="boton" href="./pages/partidos.html">Ver</a>
+      </div>
+
+      <div class="tarjeta">
+        <img src="./img/resultados.png" alt="Resultados">
+        <h3>Resultados</h3>
+        <p>Enterate como terminaron los encuentros.</p>
+        <a class="boton" href="./pages/resultados.html">Ver</a>
+      </div>
+
+      <div class="tarjeta">
+        <img src="./img/posiciones.png" alt="Posiciones">
+        <h3>Posiciones</h3>
+        <p>Seguí a los equipos a lo largo del torneo.</p>
+        <a class="boton" href="./pages/posiciones.html">Ver</a>
+      </div>
+
+      <div class="tarjeta">
+        <img src="./img/trofeo.png" alt="Torneos">
+        <h3>Torneos</h3>
+        <p>Conocé los torneos y sus equipos participantes.</p>
+        <a class="boton" href="./pages/torneo.html">Ver</a>
+      </div>
     </section>
 
-    <section>
-      <h2>Segui la actividad</h2>
+    <!-- ARTÍCULOS -->
+    <section class="actividad">
+      <h2>EL HOCKEY EN ACCIÓN</h2>
 
       <article>
-        <div>Espacio para imagen</div>
-        <h3>Proximos partidos</h3>
-        <p>Consulta fechas, equipos y horarios.</p>
-        <a href="./pages/partidos.html">Ver calendario</a>
+        <img src="./img/partido.jpg" alt="Jugadoras de hockey festejando">
+
+        <div class="texto_articulo">
+          <h3>Cada partido cuenta</h3>
+          <p>Segúi los próximos encuentros y acompaña a tu equipo en cada fecha.</p>
+          <a class="boton" href="./pages/partidos.html">Ver</a>
+        </div>
       </article>
 
       <article>
-        <div>Espacio para imagen</div>
-        <h3>ultimos resultados</h3>
-        <p>Conoce los resultados de la ultima fecha.</p>
-        <a href="./pages/resultados.html">Ver resultados</a>
+        <img src="./img/arquera.jpeg" alt="Arquera de hockey con camiseta verde">
+
+        <div class="texto_articulo">
+          <h3>Hasta el último minuto</h3>
+          <p>consulta los resultados y descubrí cómo termino cada encuentro.</p>
+          <a class="boton" href="./pages/resultados.html">Ver</a>
+        </div>
       </article>
     </section>
 
-    <section>
-      <h2>Noticias de hockey</h2>
-      <p>Novedades de los equipos y torneos.</p>
-      <a href="./pages/noticias.html">Ver noticias</a>
+    <!-- NOTICIAS -->
+    <section class="noticias">
+      <h2>Lo último del Hockey</h2>
+      <p>Novedades de los equipos, los torneos y todo lo que pasa dentro y fuera de la cancha.</p>
+      <a class="boton" href="./pages/noticias.html">Ver Noticias</a>
     </section>
 
     <aside>
-      <h2>Destacado</h2>
-      <a href="./pages/posiciones.html">Ver tabla de posiciones</a>
+      <h2>¿Cómo va tu equipo?</h2>
+      <a href="./pages/posiciones.html">Ver posiciones</a>
     </aside>
   </main>
 
   <footer>
+    <img class="logo" src="./img/logo.png" alt="Hockey Zone">
     <p>Hockey Zone</p>
   </footer>
 </body>

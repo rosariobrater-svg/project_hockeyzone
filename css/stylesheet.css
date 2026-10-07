@@ -1,4 +1,5 @@
-*{margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -6,38 +7,165 @@
 /* ESTILO DE FUENTE */
 h1, h2, h3, h4, h5, h6, p, a {
     font-family: "Clarity City", sans-serif;
+    color: #3b5883;
+}
+
+body {
+    background-color: #abcff1;
 }
 
 p {
     font-size: 1rem;
-
+    margin: 12px 0 24px 0;
 }
+
+/* ENCABEZADO */
 header {
-    height: 50px;
-    background-color: #d2a7eb;
+    height: 90px;
+    padding: 15px 6%;
+    background-color: #d3eefd;
 }
 
-main {background-color: #edb58e;
-height: 1500px;
+.logo {
+    width: 60px;
+    height: 60px;
+    float: left;
 }
 
-section {
-    background-color: #c6459f;
-    height: 1600px;
+nav {
+    float: right;
+    margin-top: 20px;
 }
 
-.nino {
-    background-color: #8371de;
-    height: 1500px;
+nav a {
+    margin-left: 18px;
 }
 
-.contenedor_productos{
-    position: relative;
+/* CONTENIDO PRINCIPAL */
+main {
+    background-color: #abcff1;
 }
-.contenedor_productos div{
-   height: 150px;
-   width: 150px;
-   border: 2px solid #000;
-   margin: 20px 30px 50px 20px;
 
+/* PORTADA */
+.portada {
+    height: 400px;
+    background-color: #abcff1;
+}
+
+.texto_portada {
+    width: 50%;
+    height: 400px;
+    padding: 60px 6%;
+    float: left;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.imagen_portada {
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+
+.imagen_portada img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* BOTONES */
+.boton {
+    padding: 10px 28px;
+    background-color: #3b5883;
+    color: #d3eefd;
+}
+
+/* CUATRO ACCESOS */
+.accesos {
+    height: 360px;
+    padding: 20px 4%;
+    background-color: #abcff1;
+}
+
+.accesos h2, .actividad h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    width: 23%;
+    height: 270px;
+    margin: 0 1%;
+    padding: 18px;
+    border: 1px solid #abcff1;
+    background-color: #d3eefd;
+    text-align: center;
+    float: left;
+}
+
+.tarjeta img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.tarjeta p {
+    font-size: 0.9rem;
+}
+
+/* ARTÍCULOS */
+.actividad {
+    height: 520px;
+    padding: 30px 5%;
+    background-color: #abcff1;
+}
+
+article {
+    width: 48%;
+    height: 400px;
+    margin: 0 1%;
+    background-color: #d3eefd;
+    float: left;
+}
+
+article img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.texto_articulo {
+    padding: 20px;
+}
+
+/* NOTICIAS */
+.noticias {
+    height: 210px;
+    padding: 35px 6%;
+    background-color: #d3eefd;
+}
+
+/* DESTACADO */
+aside {
+    height: 100px;
+    padding: 20px 6%;
+    background-color: #abcff1;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    height: 100px;
+    padding: 20px 6%;
+    background-color: #d3eefd;
+}
+
+footer p {
+    float: left;
+    margin: 20px;
 }
