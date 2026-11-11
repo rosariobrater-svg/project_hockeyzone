@@ -169,3 +169,1113 @@ footer p {
     float: left;
     margin: 20px;
 }
+
+/* PÁGINA DE PARTIDOS */
+
+.pagina_partidos {
+    background-color: #abcff1;
+}
+
+/* Encabezado y menú */
+
+.pagina_partidos header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 14px 6%;
+    background-color: #d3eefd;
+}
+
+.pagina_partidos .logo {
+    float: none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pagina_partidos nav {
+    float: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+}
+
+.pagina_partidos nav a {
+    margin: 0;
+    padding: 6px 0;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
+
+.pagina_partidos nav a:hover,
+.pagina_partidos nav a.activo {
+    border-bottom-color: #3b5883;
+}
+
+.pagina_partidos nav a.activo {
+    font-weight: bold;
+}
+
+/* Título de la página */
+
+.contenido_partidos {
+    width: 88%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 32px 0 44px;
+}
+
+.titulo_partidos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 28px 32px;
+    border-radius: 16px;
+    background-color: #3b5883;
+}
+
+.titulo_partidos h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.titulo_partidos p {
+    color: #d3eefd;
+    margin: 10px 0 0;
+}
+
+.icono_calendario {
+    width: 72px;
+    height: 72px;
+    padding: 12px;
+    background-color: #d3eefd;
+    border-radius: 14px;
+    object-fit: contain;
+}
+
+/* Filas del calendario */
+
+.calendario_partidos {
+    margin-top: 28px;
+}
+
+.calendario_partidos h2 {
+    margin-bottom: 14px;
+}
+
+.pagina_partidos .partido {
+    float: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 20px;
+    margin: 0 0 12px;
+    padding: 16px 20px;
+    border-left: 4px solid #3b5883;
+    border-radius: 12px;
+    background-color: #d3eefd;
+}
+
+.fecha_partido {
+    min-width: 100px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #f0f8fe;
+    text-align: center;
+}
+
+.fecha_partido .numero_dia {
+    font-size: 1.65rem;
+    font-weight: bold;
+}
+
+.equipo_partido {
+    flex: 1;
+    min-width: 180px;
+}
+
+.equipo_partido h3 {
+    font-size: 1.2rem;
+}
+
+.pagina_partidos .partido p {
+    margin: 0;
+}
+
+.pagina_partidos .equipo_partido p {
+    margin-top: 5px;
+}
+
+.pagina_partidos .hora_partido {
+    padding: 7px 12px;
+    border-radius: 8px;
+    background-color: #3b5883;
+    color: white;
+    font-weight: bold;
+}
+
+/* Partidos anteriores y pie de página */
+
+.pagina_partidos .partidos_anteriores {
+    height: auto;
+    margin-top: 24px;
+    padding: 16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-top: 1px solid #3b5883;
+}
+
+.partidos_anteriores h2 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.partidos_anteriores .boton {
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.pagina_partidos footer {
+    height: auto;
+    padding: 18px 6%;
+    text-align: center;
+}
+
+.pagina_partidos footer p {
+    float: none;
+    margin: 0;
+}
+
+/* Pantallas chicas */
+
+@media (max-width: 600px) {
+    .titulo_partidos {
+        padding: 20px;
+    }
+
+    .titulo_partidos h1 {
+        font-size: 1.75rem;
+    }
+
+    .icono_calendario {
+        width: 48px;
+        height: 48px;
+        padding: 7px;
+    }
+}
+
+/* PÁGINA DE RESULTADOS */
+
+.pagina_resultados {
+    background-color: #abcff1;
+}
+
+/* Encabezado y menú */
+
+.pagina_resultados header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 14px 6%;
+    background-color: #d3eefd;
+}
+
+.pagina_resultados .logo {
+    float: none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pagina_resultados nav {
+    float: none;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+}
+
+.pagina_resultados nav a {
+    margin: 0;
+    padding: 6px 0;
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+}
+
+.pagina_resultados nav a:hover,
+.pagina_resultados nav a.activo {
+    border-bottom-color: #3b5883;
+}
+
+.pagina_resultados nav a.activo {
+    font-weight: bold;
+}
+
+/* Título de la página */
+
+.contenido_resultados {
+    width: 88%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 32px 0 44px;
+}
+
+.titulo_resultados {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 28px 32px;
+    border-radius: 16px;
+    background-color: #3b5883;
+}
+
+.titulo_resultados h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.titulo_resultados p {
+    color: #d3eefd;
+    margin: 10px 0 0;
+}
+
+.icono_resultados {
+    width: 72px;
+    height: 72px;
+    padding: 12px;
+    border-radius: 14px;
+    background-color: #d3eefd;
+    object-fit: contain;
+}
+
+/* Filas de resultados */
+
+.lista_resultados {
+    margin-top: 28px;
+}
+
+.lista_resultados h2 {
+    margin-bottom: 14px;
+}
+
+.pagina_resultados .fila_resultado {
+    float: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 0 12px;
+    padding: 16px 20px;
+    border-left: 4px solid #3b5883;
+    border-radius: 12px;
+    background-color: #d3eefd;
+}
+
+.pagina_resultados .fila_resultado p {
+    margin: 0;
+}
+
+.fecha_resultado {
+    width: 155px;
+    font-size: 0.9rem;
+}
+
+.marcador_resultado {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.1rem;
+}
+
+.equipo_local,
+.equipo_visitante {
+    flex: 1;
+    min-width: 0;
+    overflow-wrap: break-word;
+}
+
+.equipo_local {
+    text-align: right;
+}
+
+.goles {
+    padding: 8px 14px;
+    border-radius: 8px;
+    background-color: #3b5883;
+    color: white;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+
+.estado_resultado {
+    padding: 6px 10px;
+    border-radius: 8px;
+    background-color: #f0f8fe;
+    font-size: 0.85rem;
+}
+
+/* Enlace a próximos partidos y pie de página */
+
+.pagina_resultados .enlace_partidos {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+    padding: 16px 20px;
+    border-top: 1px solid #3b5883;
+}
+
+.enlace_partidos h2 {
+    margin: 0;
+    font-size: 1.15rem;
+}
+
+.enlace_partidos .boton {
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.pagina_resultados footer {
+    height: auto;
+    padding: 18px 6%;
+    text-align: center;
+}
+
+.pagina_resultados footer p {
+    float: none;
+    margin: 0;
+}
+
+/* Pantallas chicas */
+
+@media (max-width: 700px) {
+    .titulo_resultados {
+        padding: 20px;
+    }
+
+    .titulo_resultados h1 {
+        font-size: 1.75rem;
+    }
+
+    .icono_resultados {
+        width: 48px;
+        height: 48px;
+        padding: 7px;
+    }
+
+    .pagina_resultados .fila_resultado {
+        flex-direction: column;
+        gap: 10px;
+        padding: 14px 12px;
+    }
+
+    .fecha_resultado {
+        width: auto;
+        text-align: center;
+    }
+
+    .marcador_resultado {
+        width: 100%;
+        gap: 8px;
+        font-size: 1rem;
+    }
+
+    .goles {
+        padding: 6px 10px;
+    }
+}
+
+/* PÁGINA DE POSICIONES */
+
+.pagina_posiciones header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 14px 6%;
+    background-color: #d3eefd;
+}
+
+.pagina_posiciones .logo {
+    float: none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pagina_posiciones nav {
+    float: none;
+    margin: 0;
+}
+
+.pagina_posiciones .nav_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.pagina_posiciones .nav_flex li {
+    list-style: none;
+}
+
+.pagina_posiciones nav a {
+    margin: 0;
+    text-decoration: none;
+}
+
+.pagina_posiciones nav .activo {
+    font-weight: bold;
+    border-bottom: 2px solid #3b5883;
+}
+
+/* TÍTULO */
+
+.contenido_posiciones {
+    width: 88%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 32px 0 44px;
+}
+
+.titulo_posiciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #3b5883;
+}
+
+.titulo_posiciones h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.titulo_posiciones p {
+    color: #d3eefd;
+    margin: 8px 0 0;
+}
+
+.icono_posiciones {
+    width: 60px;
+    height: 60px;
+    padding: 9px;
+    border-radius: 12px;
+    background-color: #d3eefd;
+    object-fit: contain;
+}
+
+/* TABLA DE POSICIONES */
+
+.clasificacion {
+    margin-top: 28px;
+}
+
+.clasificacion h2 {
+    margin-bottom: 14px;
+}
+
+.fila_posiciones {
+    display: flex;
+    align-items: center;
+    padding: 10px 6px;
+    background-color: #d3eefd;
+    border-bottom: 2px solid #abcff1;
+}
+
+.fila_posiciones p {
+    width: 10%;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.fila_posiciones .nombre_equipo {
+    width: 40%;
+    padding: 0 8px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.encabezado_posiciones {
+    background-color: #3b5883;
+    border-radius: 8px 8px 0 0;
+}
+
+.encabezado_posiciones p {
+    color: white;
+    font-weight: bold;
+}
+
+.fila_posiciones .puntos {
+    font-weight: bold;
+}
+
+.referencias_posiciones {
+    margin: 12px 0 0;
+    font-size: 0.85rem;
+}
+
+/* ENLACE A TORNEOS */
+
+.enlace_torneos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+    padding: 16px 0;
+    border-top: 1px solid #3b5883;
+}
+
+.enlace_torneos .boton {
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* PIE DE PÁGINA */
+
+.pagina_posiciones footer {
+    height: auto;
+    padding: 18px 6%;
+    text-align: center;
+}
+
+.pagina_posiciones footer p {
+    float: none;
+    margin: 0;
+}
+
+/* PÁGINA DE TORNEOS */
+
+.pagina_torneos header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 14px 6%;
+    background-color: #d3eefd;
+}
+
+.pagina_torneos .logo {
+    float: none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pagina_torneos nav {
+    float: none;
+    margin: 0;
+}
+
+.pagina_torneos .nav_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.pagina_torneos .nav_flex li {
+    list-style: none;
+}
+
+.pagina_torneos nav a {
+    margin: 0;
+    text-decoration: none;
+}
+
+.pagina_torneos nav .activo {
+    font-weight: bold;
+    border-bottom: 2px solid #3b5883;
+}
+
+/* TÍTULO */
+
+.contenido_torneos {
+    width: 88%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 32px 0 44px;
+}
+
+.titulo_torneos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #3b5883;
+}
+
+.titulo_torneos h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.titulo_torneos p {
+    color: #d3eefd;
+    margin: 8px 0 0;
+}
+
+.icono_torneos {
+    width: 60px;
+    height: 60px;
+    padding: 9px;
+    border-radius: 12px;
+    background-color: #d3eefd;
+    object-fit: contain;
+}
+
+/* TARJETAS DE COMPETENCIAS */
+
+.competencias_torneos {
+    margin-top: 28px;
+}
+
+.competencias_torneos h2 {
+    margin-bottom: 14px;
+}
+
+.tarjetas_torneos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.pagina_torneos .tarjeta_torneo {
+    width: 48%;
+    padding: 20px;
+    border-left: 4px solid #3b5883;
+    border-radius: 12px;
+    background-color: #d3eefd;
+}
+
+.tarjeta_torneo p {
+    margin: 10px 0 0;
+    line-height: 1.5;
+}
+
+.tarjeta_torneo .categoria_torneo {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background-color: #f0f8fe;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* ENLACE A POSICIONES Y PIE DE PÁGINA */
+
+.enlace_posiciones {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 24px;
+    padding: 16px 0;
+    border-top: 1px solid #3b5883;
+}
+
+.enlace_posiciones .boton {
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.pagina_torneos footer {
+    height: auto;
+    padding: 18px 6%;
+    text-align: center;
+}
+
+.pagina_torneos footer p {
+    float: none;
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .pagina_torneos .tarjeta_torneo {
+        width: 100%;
+    }
+}
+
+/* PÁGINA DE NOTICIAS */
+
+.pagina_noticias header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 14px 6%;
+    background-color: #d3eefd;
+}
+
+.pagina_noticias .logo {
+    float: none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pagina_noticias nav {
+    float: none;
+    margin: 0;
+}
+
+.pagina_noticias .nav_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.pagina_noticias .nav_flex li {
+    list-style: none;
+}
+
+.pagina_noticias nav a {
+    margin: 0;
+    text-decoration: none;
+}
+
+.pagina_noticias nav .activo {
+    font-weight: bold;
+    border-bottom: 2px solid #3b5883;
+}
+
+/* TÍTULO */
+
+.contenido_noticias {
+    width: 88%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 32px 0 44px;
+}
+
+.titulo_noticias {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #3b5883;
+}
+
+.titulo_noticias h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.titulo_noticias p {
+    color: #d3eefd;
+    margin: 8px 0 0;
+}
+
+/* NOTICIA DESTACADA */
+
+.noticia_destacada {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+    border-radius: 12px;
+    background-color: #d3eefd;
+    overflow: hidden;
+}
+
+.noticia_destacada img {
+    display: block;
+    width: 50%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.noticia_destacada .texto_noticia {
+    width: 50%;
+}
+
+.texto_noticia {
+    padding: 22px;
+}
+
+.texto_noticia p {
+    margin: 10px 0 16px;
+    line-height: 1.5;
+}
+
+.texto_noticia .categoria_noticia {
+    margin: 0 0 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.texto_noticia .boton {
+    display: inline-block;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* TARJETAS DE NOTICIAS */
+
+.mas_noticias {
+    margin-top: 28px;
+}
+
+.mas_noticias h2 {
+    margin-bottom: 14px;
+}
+
+.tarjetas_noticias {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.tarjeta_noticia {
+    width: 48%;
+    border-radius: 12px;
+    background-color: #d3eefd;
+    overflow: hidden;
+}
+
+.tarjeta_noticia img {
+    display: block;
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+/* PIE DE PÁGINA */
+
+.pagina_noticias footer {
+    height: auto;
+    padding: 18px 6%;
+    text-align: center;
+}
+
+.pagina_noticias footer p {
+    float: none;
+    margin: 0;
+}
+
+/* PANTALLAS CHICAS */
+
+@media (max-width: 650px) {
+    .noticia_destacada {
+        flex-direction: column;
+    }
+
+    .noticia_destacada img,
+    .noticia_destacada .texto_noticia,
+    .tarjeta_noticia {
+        width: 100%;
+    }
+
+    .noticia_destacada img {
+        height: 200px;
+    }
+}
+
+/* PÁGINA DE CONTACTO */
+
+.pagina_contacto header {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 14px 6%;
+    background-color: #d3eefd;
+}
+
+.pagina_contacto .logo {
+    float: none;
+    display: block;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pagina_contacto nav {
+    float: none;
+    margin: 0;
+}
+
+.pagina_contacto .nav_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.pagina_contacto .nav_flex li {
+    list-style: none;
+}
+
+.pagina_contacto nav a {
+    margin: 0;
+    text-decoration: none;
+}
+
+.pagina_contacto nav .activo {
+    font-weight: bold;
+    border-bottom: 2px solid #3b5883;
+}
+
+/* TÍTULO */
+
+.contenido_contacto {
+    width: 88%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 32px 0 44px;
+}
+
+.titulo_contacto {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #3b5883;
+}
+
+.titulo_contacto h1 {
+    color: white;
+    font-size: 2rem;
+}
+
+.titulo_contacto p {
+    color: #d3eefd;
+    margin: 8px 0 0;
+}
+
+/* FORMULARIO E INFORMACIÓN */
+
+.pagina_contacto .bloques_contacto {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.pagina_contacto .formulario_contacto,
+.pagina_contacto .informacion_contacto {
+    padding: 22px;
+    border-radius: 12px;
+    background-color: #d3eefd;
+}
+
+.pagina_contacto .formulario_contacto {
+    width: 62%;
+}
+
+.pagina_contacto .informacion_contacto {
+    width: 38%;
+    border-left: 4px solid #3b5883;
+}
+
+.formulario_contacto h2 {
+    margin-bottom: 18px;
+}
+
+.campo_contacto {
+    margin-bottom: 14px;
+}
+
+.campo_contacto label {
+    display: block;
+    margin-bottom: 6px;
+    font-family: "Clarity City", sans-serif;
+    font-weight: bold;
+    color: #3b5883;
+}
+
+.campo_contacto input,
+.campo_contacto textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3b5883;
+    border-radius: 6px;
+    background-color: #f0f8fe;
+    color: #3b5883;
+    font-family: "Clarity City", sans-serif;
+    font-size: 1rem;
+}
+
+.campo_contacto textarea {
+    resize: vertical;
+}
+
+.formulario_contacto .boton {
+    border: 0;
+    border-radius: 8px;
+    font-family: "Clarity City", sans-serif;
+    font-size: 1rem;
+}
+
+.informacion_contacto h3 {
+    margin-top: 18px;
+}
+
+.informacion_contacto p {
+    margin: 6px 0 14px;
+    line-height: 1.5;
+}
+
+/* PIE DE PÁGINA */
+
+.pagina_contacto footer {
+    height: auto;
+    padding: 18px 6%;
+    text-align: center;
+}
+
+.pagina_contacto footer p {
+    float: none;
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .pagina_contacto .bloques_contacto {
+        flex-direction: column;
+    }
+
+    .pagina_contacto .formulario_contacto,
+    .pagina_contacto .informacion_contacto {
+        width: 100%;
+    }
+}

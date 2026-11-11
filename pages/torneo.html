@@ -4,52 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/stylesheet.css">
-   <!--tipografia textos-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Torneos | Hockey Zone</title>
 </head>
-<body>
+<body class="pagina_torneos">
   <header>
-    <a href="../index.html">HOCKEY ZONE</a>
+    <a href="../index.html">
+      <img class="logo" src="../img/logo.png" alt="Hockey Zone">
+    </a>
+
     <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="partidos.html">Partidos</a>
-      <a href="resultados.html">Resultados</a>
-      <a href="posiciones.html">Posiciones</a>
-      <a href="torneo.html">Torneos</a>
-      <a href="noticias.html">Noticias</a>
-      <a href="contacto.html">Contacto</a>
+      <ul class="nav_flex">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="partidos.html">Partidos</a></li>
+        <li><a href="resultados.html">Resultados</a></li>
+        <li><a href="posiciones.html">Posiciones</a></li>
+        <li><a class="activo" href="torneo.html">Torneos</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1>Torneos</h1>
-      <p>Explorá las competencias y seguí sus novedades.</p>
+  <main class="contenido_torneos">
+    <section class="titulo_torneos">
+      <div>
+        <h1>Torneos</h1>
+        <p>Conocé las competencias y los equipos que participan.</p>
+      </div>
+
+      <img class="icono_torneos" src="../img/trofeo.png" alt="">
     </section>
 
-    <section>
-      <h2>Competencias</h2>
+    <section class="competencias_torneos">
+      <h2>Competencias de la temporada</h2>
 
-      <article>
-        <div>Espacio para imagen del torneo</div>
-        <h3>Nombre del torneo</h3>
-        <p>Descripción, fechas y equipos participantes.</p>
-      </article>
+      <div class="tarjetas_torneos">
+        <div class="tarjeta_torneo">
+          <h3>Liga Metropolitana</h3>
+          <p class="categoria_torneo">Primera femenina</p>
+          <p>Equipos participantes: UBA, GEBA, Banco Nación y Ciudad de Buenos Aires.</p>
+        </div>
 
-      <article>
-        <div>Espacio para imagen del torneo</div>
-        <h3>Otro torneo</h3>
-        <p>Descripción, fechas y equipos participantes.</p>
-      </article>
+        <div class="tarjeta_torneo">
+          <h3>Copa de Clubes</h3>
+          <p class="categoria_torneo">Primera masculina</p>
+          <p>Equipos participantes: GEBA, Ciudad de Buenos Aires y San Fernando.</p>
+        </div>
+
+        <div class="tarjeta_torneo">
+          <h3>Torneo de Intermedia</h3>
+          <p class="categoria_torneo">Intermedia femenina</p>
+          <p>Equipos participantes: UBA, Banco Nación y Lomas.</p>
+        </div>
+
+        <div class="tarjeta_torneo">
+          <h3>Copa Juvenil</h3>
+          <p class="categoria_torneo">Sub 19 femenina</p>
+          <p>Equipos participantes: GEBA, San Fernando y Lomas.</p>
+        </div>
+      </div>
     </section>
 
-    <aside>
-      <h2>Seguí la competencia</h2>
-      <a href="../pages/posiciones.html">Ver posiciones</a>
-    </aside>
+    <section class="enlace_posiciones">
+      <h2>¿Cómo va tu equipo?</h2>
+      <a class="boton" href="posiciones.html">Ver tabla de posiciones</a>
+    </section>
   </main>
 
   <footer>

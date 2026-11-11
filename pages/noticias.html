@@ -4,52 +4,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/stylesheet.css">
-   <!--tipografia textos-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Noticias | Hockey Zone</title>
 </head>
-<body>
+<body class="pagina_noticias">
   <header>
-    <a href="../index.html">HOCKEY ZONE</a>
+    <a href="../index.html">
+      <img class="logo" src="../img/logo.png" alt="Hockey Zone">
+    </a>
+
     <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="partidos.html">Partidos</a>
-      <a href="resultados.html">Resultados</a>
-      <a href="posiciones.html">Posiciones</a>
-      <a href="torneo.html">Torneos</a>
-      <a href="noticias.html">Noticias</a>
-      <a href="contacto.html">Contacto</a>
+      <ul class="nav_flex">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="partidos.html">Partidos</a></li>
+        <li><a href="resultados.html">Resultados</a></li>
+        <li><a href="posiciones.html">Posiciones</a></li>
+        <li><a href="torneo.html">Torneos</a></li>
+        <li><a class="activo" href="noticias.html">Noticias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1>Noticias de hockey</h1>
-      <p>Enterate de las novedades de los equipos y torneos.</p>
+  <main class="contenido_noticias">
+    <section class="titulo_noticias">
+      <h1>Noticias</h1>
+      <p>Las novedades del hockey dentro y fuera de la cancha.</p>
     </section>
 
-    <section>
-      <h2>Últimas noticias</h2>
+    <section class="noticia_destacada">
+      <img src="../img/partido.jpg" alt="Jugadoras de hockey festejando">
 
-      <article>
-        <div>Espacio para imagen de la noticia</div>
-        <h3>Título de la primera noticia</h3>
-        <p>Resumen breve de la noticia.</p>
-      </article>
-
-      <article>
-        <div>Espacio para imagen de la noticia</div>
-        <h3>Título de la segunda noticia</h3>
-        <p>Resumen breve de la noticia.</p>
-      </article>
+      <div class="texto_noticia">
+        <p class="categoria_noticia">Partidos</p>
+        <h2>Se viene una nueva fecha de hockey</h2>
+        <p>UBA y GEBA se enfrentan el sábado. Consultá el calendario para conocer los horarios del fin de semana.</p>
+        <a class="boton" href="partidos.html">Ver calendario</a>
+      </div>
     </section>
 
-    <aside>
-      <h2>También te puede interesar</h2>
-      <a href="torneos.html">Explorar torneos</a>
-    </aside>
+    <section class="mas_noticias">
+      <h2>Más novedades</h2>
+
+      <div class="tarjetas_noticias">
+        <div class="tarjeta_noticia">
+          <img src="../img/arquera.jpeg" alt="Arquera de hockey con camiseta verde">
+
+          <div class="texto_noticia">
+            <p class="categoria_noticia">Resultados</p>
+            <h3>Los marcadores de la última fecha</h3>
+            <p>Repasá cómo terminaron los encuentros y cuántos goles hizo cada equipo.</p>
+            <a class="boton" href="resultados.html">Ver resultados</a>
+          </div>
+        </div>
+
+        <div class="tarjeta_noticia">
+          <img src="../img/hero.jpg" alt="Jugadora de hockey con camiseta celeste">
+
+          <div class="texto_noticia">
+            <p class="categoria_noticia">Torneos</p>
+            <h3>Las competencias de la temporada</h3>
+            <p>Conocé qué equipos participan en cada torneo y en qué categoría juegan.</p>
+            <a class="boton" href="torneo.html">Ver torneos</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>

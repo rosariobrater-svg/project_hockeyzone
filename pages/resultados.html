@@ -4,19 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/stylesheet.css">
-   <!--tipografia textos-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <title>Resultados | Hockey Zone</title>
 </head>
-<body>
+<body class="pagina_resultados">
   <header>
-    <a href="../index.html">HOCKEY ZONE</a>
+    <a href="../index.html">
+      <img class="logo" src="../img/logo.png" alt="Hockey Zone, inicio">
+    </a>
+
     <nav>
       <a href="../index.html">Inicio</a>
       <a href="partidos.html">Partidos</a>
-      <a href="resultados.html">Resultados</a>
+      <a class="activo" href="resultados.html" aria-current="page">Resultados</a>
       <a href="posiciones.html">Posiciones</a>
       <a href="torneo.html">Torneos</a>
       <a href="noticias.html">Noticias</a>
@@ -24,31 +28,47 @@
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1>Resultados</h1>
-      <p>Revisá los marcadores de los partidos que ya se jugaron.</p>
+  <main class="contenido_resultados">
+    <section class="titulo_resultados">
+      <div>
+        <h1>Resultados</h1>
+        <p>Consultá los marcadores de los últimos partidos.</p>
+      </div>
+
+      <img class="icono_resultados" src="../img/resultados.png" alt="">
     </section>
 
-    <section>
-      <h2>Última fecha</h2>
+    <section class="lista_resultados">
+      <h2>Últimos resultados</h2>
 
-      <article>
-        <h3>Encuentro 1</h3>
-        <p>Equipo local — Resultado — Equipo visitante</p>
-        <p>Fecha y torneo</p>
+      <article class="fila_resultado">
+        <p class="fecha_resultado">Sábado 7 de noviembre de 2026</p>
+
+        <h3 class="marcador_resultado">
+          <span class="equipo_local">UBA</span>
+          <span class="goles">2 – 1</span>
+          <span class="equipo_visitante">Banco Nación</span>
+        </h3>
+
+        <p class="estado_resultado">Finalizado</p>
       </article>
 
-      <article>
-        <h3>Encuentro 2</h3>
-        <p>Equipo local — Resultado — Equipo visitante</p>
-        <p>Fecha y torneo</p>
+      <article class="fila_resultado">
+        <p class="fecha_resultado">Domingo 8 de noviembre de 2026</p>
+
+        <h3 class="marcador_resultado">
+          <span class="equipo_local">GEBA</span>
+          <span class="goles">3 – 3</span>
+          <span class="equipo_visitante">Ciudad de Buenos Aires</span>
+        </h3>
+
+        <p class="estado_resultado">Finalizado</p>
       </article>
     </section>
 
-    <aside>
-      <h2>Próxima fecha</h2>
-      <a href="partidos.html">Ver próximos partidos</a>
+    <aside class="enlace_partidos">
+      <h2>¿Cuándo se juega la próxima fecha?</h2>
+      <a class="boton" href="partidos.html">Ver próximos partidos</a>
     </aside>
   </main>
 

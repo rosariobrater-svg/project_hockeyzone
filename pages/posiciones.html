@@ -4,40 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/stylesheet.css">
-   <!--tipografia textos-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <title>Posiciones | Hockey Zone</title>
 </head>
-<body>
+<body class="pagina_posiciones">
   <header>
-    <a href="../index.html">HOCKEY ZONE</a>
+    <a href="../index.html">
+      <img class="logo" src="../img/logo.png" alt="Hockey Zone">
+    </a>
+
     <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="partidos.html">Partidos</a>
-      <a href="resultados.html">Resultados</a>
-      <a href="posiciones.html">Posiciones</a>
-      <a href="torneo.html">Torneos</a>
-      <a href="noticias.html">Noticias</a>
-      <a href="contacto.html">Contacto</a>
+      <ul class="nav_flex">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="partidos.html">Partidos</a></li>
+        <li><a href="resultados.html">Resultados</a></li>
+        <li><a class="activo" href="posiciones.html">Posiciones</a></li>
+        <li><a href="torneo.html">Torneos</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <section>
-      <h1>Tabla de posiciones</h1>
-      <p>Seguí el desempeño de los equipos en cada torneo.</p>
+  <main class="contenido_posiciones">
+    <section class="titulo_posiciones">
+      <div>
+        <h1>Tabla de posiciones</h1>
+        <p>Seguí el desempeño de los equipos en cada torneo.</p>
+      </div>
+      <img class="icono_posiciones" src="../img/posiciones.png" alt="">
     </section>
 
-    <section>
+    <section class="clasificacion">
       <h2>Posiciones del torneo</h2>
+
+      <div class="fila_posiciones encabezado_posiciones">
+        <p>Pos.</p>
+        <p class="nombre_equipo">Equipo</p>
+        <p>PJ</p>
+        <p>PG</p>
+        <p>PE</p>
+        <p>PP</p>
+        <p>Pts.</p>
+      </div>
+
+      <div class="fila_posiciones">
+        <p>1</p>
+        <p class="nombre_equipo">UBA</p>
+        <p>3</p>
+        <p>2</p>
+        <p>1</p>
+        <p>0</p>
+        <p class="puntos">7</p>
+      </div>
+
+      <div class="fila_posiciones">
+        <p>2</p>
+        <p class="nombre_equipo">GEBA</p>
+        <p>3</p>
+        <p>1</p>
+        <p>2</p>
+        <p>0</p>
+        <p class="puntos">5</p>
+      </div>
+
+      <div class="fila_posiciones">
+        <p>3</p>
+        <p class="nombre_equipo">Banco Nación</p>
+        <p>3</p>
+        <p>1</p>
+        <p>0</p>
+        <p>2</p>
+        <p class="puntos">3</p>
+      </div>
+
+      <div class="fila_posiciones">
+        <p>4</p>
+        <p class="nombre_equipo">Ciudad de Buenos Aires</p>
+        <p>3</p>
+        <p>0</p>
+        <p>1</p>
+        <p>2</p>
+        <p class="puntos">1</p>
+      </div>
+
+      <p class="referencias_posiciones">
+        PJ = jugados · PG = ganados · PE = empatados · PP = perdidos · Pts. = puntos
+      </p>
     </section>
 
-    <aside>
+    <section class="enlace_torneos">
       <h2>Competencias</h2>
-      <a href="torneos.html">Conocé los torneos</a>
-    </aside>
+      <a class="boton" href="torneo.html">Conocé los torneos</a>
+    </section>
   </main>
 
   <footer>

@@ -4,23 +4,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/stylesheet.css">
-  <!--tipografia textos-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
   <title>Contacto | Hockey Zone</title>
 </head>
-<body>
+<body class="pagina_contacto">
   <header>
-    <a href="../index.html">HOCKEY ZONE</a>
+    <a href="../index.html">
+      <img class="logo" src="../img/logo.png" alt="Hockey Zone">
+    </a>
+
     <nav>
-      <a href="../index.html">Inicio</a>
-      <a href="partidos.html">Partidos</a>
-      <a href="resultados.html">Resultados</a>
-      <a href="posiciones.html">Posiciones</a>
-      <a href="torneo.html">Torneos</a>
-      <a href="noticias.html">Noticias</a>
-      <a href="contacto.html">Contacto</a>
+      <ul class="nav_flex">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="partidos.html">Partidos</a></li>
+        <li><a href="resultados.html">Resultados</a></li>
+        <li><a href="posiciones.html">Posiciones</a></li>
+        <li><a href="torneo.html">Torneos</a></li>
+        <li><a href="noticias.html">Noticias</a></li>
+        <li><a class="activo" href="contacto.html">Contacto</a></li>
+      </ul>
     </nav>
   </header>
+
+  <main class="contenido_contacto">
+    <section class="titulo_contacto">
+      <h1>Contacto</h1>
+      <p>Escribinos si tenés una consulta o una sugerencia para Hockey Zone.</p>
+    </section>
+
+    <div class="bloques_contacto">
+      <section class="formulario_contacto">
+        <h2>Dejanos tu mensaje</h2>
+
+        <form>
+          <div class="campo_contacto">
+            <label for="nombre">Nombre y apellido</label>
+            <input type="text" id="nombre" name="nombre">
+          </div>
+
+          <div class="campo_contacto">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo">
+          </div>
+
+          <div class="campo_contacto">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" name="asunto">
+          </div>
+
+          <div class="campo_contacto">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+          </div>
+
+          <button class="boton" type="submit" disabled>Enviar mensaje</button>
+        </form>
+      </section>
+
+      <section class="informacion_contacto">
+        <h2>¿En qué podemos ayudarte?</h2>
+
+        <h3>Consultas sobre partidos</h3>
+        <p>Si querés consultar un horario o un resultado, incluí los nombres de los equipos y la fecha.</p>
+
+        <h3>Sugerencias</h3>
+        <p>Contanos qué torneo, club o noticia te gustaría encontrar en Hockey Zone.</p>
+
+        <a href="partidos.html">Consultar el calendario</a>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Hockey Zone</p>
+  </footer>
+</body>
+</html>
