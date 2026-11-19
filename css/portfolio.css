@@ -123,7 +123,6 @@ body {
 }
 
 
-/* CÓDIGO DEL PROFESOR */
 
 .section_portfolio {
     display: flex;
@@ -174,9 +173,6 @@ body {
     grid-area: pic6;
 }
 
-
-/* CENTRADO DE LA GALERÍA */
-
 .section-principal {
     display: flex;
     flex-direction: column;
@@ -198,8 +194,6 @@ body {
     background-color: #f4c9dc;
 }
 
-
-/* CONTACTO */
 
 .contacto-rosario {
     padding: 50px 10% 30px;
