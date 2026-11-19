@@ -173,9 +173,6 @@ body {
     grid-area: pic6;
 }
 
-
-
-
 .section-principal {
     display: flex;
     flex-direction: column;
@@ -196,7 +193,6 @@ body {
     text-transform: uppercase;
     background-color: #f4c9dc;
 }
-
 
 
 .contacto-rosario {
